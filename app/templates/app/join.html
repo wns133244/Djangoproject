@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form method="post">
+     {% csrf_token %} <br>
+
+     Full Name : <input type="text" name="user_name"><br>
+     E-Mail : <input type="text" name="user_mail"><br>
+     Date of Birth : <input type="date" name="user_birth"><br>
+     개인정보 활용동의 : <input type="checkbox" name="user_agree"><br>
+     <input type="submit" value="LOG IN">
+    </form>
+
+</body>
+</html>
